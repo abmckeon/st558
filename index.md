@@ -28,4 +28,4 @@ I will use this blog for school assignments mostly, but will also likely just cr
 Here is the link to my blog [link](https://github.com/abmckeon/st558). You can also email me at abmckeon@ncsu.edu. 
 
 
-
+ 
