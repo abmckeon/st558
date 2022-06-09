@@ -5,10 +5,6 @@ date: '2022-06-08'
 output: github_document
 ---
 
-```{r image setup, echo = FALSE}
-knitr::opts_chunk$set(fig.path = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/images")
-```
-
 ```{r render, echo = FALSE, eval = FALSE}
 rmarkdown::render("/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_Rmd/ProgrammingBackground.Rmd", output_format = "github_document", output_dir = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_posts", output_options =
                     list(html_preview= FALSE)
@@ -26,5 +22,6 @@ My thoughts on R are very positive. I love the idea of moving away from non-open
 ## Example R Markdown Ouput
 
 ```{r cars, echo=FALSE}
+knitr::opts_chunk$set(fig.path = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/images")
 plot(cars)
 ```
