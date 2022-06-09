@@ -6,7 +6,7 @@ output: github_document
 ---
 
 ```{r setup, echo = FALSE}
-knitr::opts_chunk$set(fig.path = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/images/")
+knitr::opts_chunk$set(fig.path = "../images/")
 ```
 
 ```{r render, echo = FALSE, eval = FALSE}
