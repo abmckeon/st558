@@ -38,4 +38,8 @@ and I don’t remember much from my other programming experiences.
 
 ## Example R Markdown Ouput
 
+``` r
+plot(cars)
+```
+
 ![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/imagescars-1.png)<!-- -->
