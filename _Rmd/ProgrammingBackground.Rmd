@@ -11,7 +11,7 @@ knitr::opts_chunk$set(fig.path = "/Users/ashleebrookemckeon/Desktop/ST558_Databa
 
 ```{r render, echo = FALSE, eval = FALSE}
 rmarkdown::render("/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_Rmd/ProgrammingBackground.Rmd", output_format = "github_document", output_dir = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_posts", output_options =
-                    list(html_preview= FALSE)
+                    list(html_preview= TRUE)
                   )
 ```
 
@@ -25,6 +25,6 @@ My thoughts on R are very positive. I love the idea of moving away from non-open
 
 ## Example R Markdown Ouput
 
-```{r cars}
+```{r cars, echo = FALSE}
 plot(cars)
 ```

@@ -38,4 +38,4 @@ and I don’t remember much from my other programming experiences.
 
 ## Example R Markdown Ouput
 
-![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/imagescars-1.png)<!-- -->
+![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558cars-1.png)<!-- -->
