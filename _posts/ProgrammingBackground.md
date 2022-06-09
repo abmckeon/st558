@@ -42,4 +42,4 @@ and I don’t remember much from my other programming experiences.
 plot(cars)
 ```
 
-![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/imagescars-1.png)<!-- -->
+![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/images/cars-1.png)<!-- -->
