@@ -3,9 +3,6 @@ Programming Background
 Ashlee McKeon
 2022-06-08
 
--   [Response Question](#response-question)
--   [Example R Markdown Ouput](#example-r-markdown-ouput)
-
 ## Response Question
 
 **Everyone in this course had some programming experience coming in (due
@@ -41,4 +38,4 @@ and I don’t remember much from my other programming experiences.
 
 ## Example R Markdown Ouput
 
-![](../images/cars-1.png)<!-- -->
+![](/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/imagescars-1.png)<!-- -->
