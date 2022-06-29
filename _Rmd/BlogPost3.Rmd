@@ -1,0 +1,32 @@
+---
+title: "Blog Post 3"
+author: "Ashlee McKeon"
+date: '2022-06-29'
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r render, echo=FALSE, eval= FALSE}
+rmarkdown::render("/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_Rmd/BlogPost3.Rmd", output_format = "github_document", output_dir = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_posts", output_options = list(
+    toc = TRUE,
+    toc_depth = '2',
+    keep_md = FALSE))
+```
+
+## Blog Post Questions
+
+To date, the coolest thing I've learned about programming in R is efficiency of how to create plots and tables to summarize data. As a scientist in my day job, I am looking at how R can directly apply to making me more effective at my current job in both the immediate and the long term. The ability to write a block of code as the skeleton for types of visuals (and numeric summaries) I will often use, and then have the ability to easily modify that block of code to unique tailor each plot is really something I am excited to use. An example of the type of code I am referring to is below. 
+
+Secondly, I hate a great time working on Project 1. That was the first point in the course where I really started to feel fluid in my coding and saw the building blocks coming together in my skill development. That was very exciting for me. 
+
+``` {r boxplots, echo=FALSE, eval=FALSE}
+boxPlotWeight <- ggplot(crabs, aes(x = y, y = weight)) 
+boxPlotWeight + geom_boxplot(fill = "grey") +
+  geom_point(aes(col=y), position = "jitter")
+  labs(title = "Boxplot for Weight") +
+  stat_summary(aes(col = y))
+boxPlotWeight
+```
