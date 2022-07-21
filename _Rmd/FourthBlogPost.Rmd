@@ -20,7 +20,7 @@ rmarkdown::render("/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_Rmd/
 
 The machine learning method I found the most interesting was the. This method allows for assessing the main effects of a regression model, in order to assess the individual contributions of those variables to the model, but it also allows for including one or several interaction terms if you believe that two variables when taken together have added value than simply looking at them individually. Further, if you believe the relationship between a explanatory variable and the response may be non-linear this model also provides the flexibility to include quadratic terms. 
 
-##We will know fit the model on the iris dataset, a dataset pre-loaded into the base r package and commonly used for demonstration examples 
+*We will now fit the model on the iris dataset, a dataset pre-loaded into the base r package and commonly used for demonstration examples*
 
 ```{r read in iris, eval=TRUE, echo = FALSE}
 data(iris)

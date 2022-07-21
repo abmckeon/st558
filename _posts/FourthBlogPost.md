@@ -21,8 +21,8 @@ relationship between a explanatory variable and the response may be
 non-linear this model also provides the flexibility to include quadratic
 terms.
 
-\##We will know fit the model on the iris dataset, a dataset pre-loaded
-into the base r package and commonly used for demonstration examples
+*We will now fit the model on the iris dataset, a dataset pre-loaded
+into the base r package and commonly used for demonstration examples*
 
     ## 'data.frame':    150 obs. of  5 variables:
     ##  $ Sepal.Length: num  5.1 4.9 4.7 4.6 5 5.4 4.6 5 4.4 4.9 ...
