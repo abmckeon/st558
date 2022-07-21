@@ -1,0 +1,34 @@
+---
+title: "Fourth Blog Post"
+author: "Ashlee McKeon"
+date: '2022-07-20' 
+output: github_document
+---
+
+```{r setup, eval=TRUE, echo = FALSE}
+knitr::opts_chunk$set(fig.path = "../images/")
+library(tidyverse) 
+```
+
+```{r render, echo = TRUE, eval = FALSE}
+rmarkdown::render("/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_Rmd/FourthBlogPost.Rmd", output_format = "github_document", output_dir = "/Users/ashleebrookemckeon/Desktop/ST558_Databases/st558/_posts", output_options =
+                    list(html_preview= FALSE)
+                  )
+```
+
+## What machine learning method did you find most interesting?  Write a little about the method, fit the model on some data, and provide any relevant output.
+
+The machine learning method I found the most interesting was the. This method allows for assessing the main effects of a regression model, in order to assess the individual contributions of those variables to the model, but it also allows for including one or several interaction terms if you believe that two variables when taken together have added value than simply looking at them individually. Further, if you believe the relationship between a explanatory variable and the response may be non-linear this model also provides the flexibility to include quadratic terms. 
+
+##We will know fit the model on the iris dataset, a dataset pre-loaded into the base r package and commonly used for demonstration examples 
+
+```{r read in iris, eval=TRUE, echo = FALSE}
+data(iris)
+iris
+str(iris)
+```
+
+```{r MLR, eval=TRUE, echo = FALSE}
+mlr <- lm(iris$Sepal.Length ~ iris$Sepal.Width + iris$Petal.Length + iris$Sepal.Width:iris$Petal.Length, data = iris)
+mlr
+```
